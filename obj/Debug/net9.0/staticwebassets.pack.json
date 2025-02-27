@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
+      "Id": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
+      "PackagePath": "staticwebassets/js/taskApi.js"
+    },
+    {
       "Id": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },

@@ -2,30 +2,15 @@
     ViewData["Title"] = "Test Page";
 }
 <h2>Welcome to My MVC Playground</h2>
-<button onclick="fetchData()">Load Tasks</button>
+<button onclick="fetchTasks()">Load Tasks</button>
 <button onclick="addTask()">Add Task</button>
+<button onclick="removeTask()">Remove Task</button>
 <pre id="output">No data yet...</pre>
 
-
+<script src="~/js/taskApi.js"></script>
 <script>
-    async function fetchData() {
-        let response = await fetch('/api/TaskAPI'); // ✅ Correct API call
-        let data = await response.json();
-        document.getElementById("output").innerText = JSON.stringify(data, null, 2);
-    }
-
-    async function addTask() {
-        let newTask = prompt("Enter a new task:");
-        if (!newTask) return;
-
-        let response = await fetch('/api/TaskAPI', {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(newTask)
-        });
-
-        let result = await response.json();
-        alert(result.message);
-        fetchData(); // Refresh task list
-    }
+    document.addEventListener("DOMContentLoaded", function () {
+        fetchTasks(); 
+    });
 </script>
+

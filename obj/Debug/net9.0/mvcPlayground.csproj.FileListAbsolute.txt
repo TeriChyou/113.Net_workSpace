@@ -102,3 +102,5 @@
 /Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/mvcPlayground.csproj.AssemblyReference.cache
 /Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/mvcPlayground.MvcApplicationPartsAssemblyInfo.cs
 /Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/mvcPlayg.30AEF3FA.Up2Date
+/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/mvcPlayground.sourcelink.json
+/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz

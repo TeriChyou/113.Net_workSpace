@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FvpOt0TqYnZx4PMGJyJDLZ019EZwoLIG5ioDh4M9WEQ=",
+  "Hash": "SFxWQJCwq3VbSfBjWHGiWguzksLFinOwwBisnmzs738=",
   "Source": "mvcPlayground",
   "BasePath": "_content/mvcPlayground",
   "Mode": "Default",
@@ -540,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "SourceId": "mvcPlayground",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/mvcPlayground",
+      "RelativePath": "js/taskApi#[.{fingerprint=wnbskf2295}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ddk6rh15ab",
+      "Integrity": "odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js"
     },
     {
       "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/gdppfwurem-r4e9w2rdcm.gz",
@@ -1464,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
+      "SourceId": "mvcPlayground",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/",
+      "BasePath": "_content/mvcPlayground",
+      "RelativePath": "js/taskApi#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wnbskf2295",
+      "Integrity": "9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/taskApi.js"
     },
     {
       "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -3618,6 +3660,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-YTkfXSHFEnZ6310TKacrOsSM7+9iBIEpAwW6DhmB2Rg="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002178649237"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.js.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.wnbskf2295.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002178649237"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wnbskf2295"
+        },
+        {
+          "Name": "label",
+          "Value": "js/taskApi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.wnbskf2295.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wnbskf2295"
+        },
+        {
+          "Name": "label",
+          "Value": "js/taskApi.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.wnbskf2295.js.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wnbskf2295"
+        },
+        {
+          "Name": "label",
+          "Value": "js/taskApi.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk="
         }
       ]
     },
