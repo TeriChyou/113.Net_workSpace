@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SFxWQJCwq3VbSfBjWHGiWguzksLFinOwwBisnmzs738=",
+  "Hash": "XauYeuRkGTMFn6vcdtBNsVqBZv9jw4KDnfvsnqN0kwE=",
   "Source": "mvcPlayground",
   "BasePath": "_content/mvcPlayground",
   "Mode": "Default",
@@ -542,12 +542,12 @@
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-90gnt7jlsw.gz",
       "SourceId": "mvcPlayground",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/mvcPlayground",
-      "RelativePath": "js/taskApi#[.{fingerprint=wnbskf2295}]?.js.gz",
+      "RelativePath": "js/taskApi#[.{fingerprint=90gnt7jlsw}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -556,8 +556,8 @@
       "RelatedAsset": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ddk6rh15ab",
-      "Integrity": "odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=",
+      "Fingerprint": "h1mdvvkqes",
+      "Integrity": "1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js"
@@ -1501,8 +1501,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wnbskf2295",
-      "Integrity": "9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=",
+      "Fingerprint": "90gnt7jlsw",
+      "Integrity": "Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/taskApi.js"
@@ -3664,8 +3664,8 @@
       ]
     },
     {
-      "Route": "js/taskApi.js",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Route": "js/taskApi.90gnt7jlsw.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-90gnt7jlsw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3684,15 +3684,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
+          "Value": "\"1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+          "Value": "Thu, 20 Mar 2025 11:26:43 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3708,18 +3708,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
+          "Value": "W/\"Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "90gnt7jlsw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/taskApi.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
+          "Value": "sha256-Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o="
         }
       ]
     },
     {
-      "Route": "js/taskApi.js",
+      "Route": "js/taskApi.90gnt7jlsw.js",
       "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3729,7 +3737,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1009"
+          "Value": "1008"
         },
         {
           "Name": "Content-Type",
@@ -3737,121 +3745,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
+          "Value": "\"Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
-        }
-      ]
-    },
-    {
-      "Route": "js/taskApi.js.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "458"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk="
-        }
-      ]
-    },
-    {
-      "Route": "js/taskApi.wnbskf2295.js",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002178649237"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "458"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+          "Value": "Thu, 20 Mar 2025 11:26:43 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wnbskf2295"
+          "Value": "90gnt7jlsw"
         },
         {
           "Name": "label",
@@ -3859,58 +3767,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
+          "Value": "sha256-Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o="
         }
       ]
     },
     {
-      "Route": "js/taskApi.wnbskf2295.js",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1009"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wnbskf2295"
-        },
-        {
-          "Name": "label",
-          "Value": "js/taskApi.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY="
-        }
-      ]
-    },
-    {
-      "Route": "js/taskApi.wnbskf2295.js.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-wnbskf2295.gz",
+      "Route": "js/taskApi.90gnt7jlsw.js.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-90gnt7jlsw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3927,11 +3790,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk=\""
+          "Value": "\"1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Feb 2025 12:23:36 GMT"
+          "Value": "Thu, 20 Mar 2025 11:26:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3949,7 +3812,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wnbskf2295"
+          "Value": "90gnt7jlsw"
         },
         {
           "Name": "label",
@@ -3957,7 +3820,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-odsJHlO1jIgIWur2JuVgReoo8HlgSM9uQzKPyx/Romk="
+          "Value": "sha256-1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-90gnt7jlsw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002178649237"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 11:26:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.js",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/taskApi.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 11:26:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o="
+        }
+      ]
+    },
+    {
+      "Route": "js/taskApi.js.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/g89gu3p527-90gnt7jlsw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 11:26:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1csL6hSggsAeaT+q9+SZnUiq/2Lak2Z2ts/RJHSq0PU="
         }
       ]
     },

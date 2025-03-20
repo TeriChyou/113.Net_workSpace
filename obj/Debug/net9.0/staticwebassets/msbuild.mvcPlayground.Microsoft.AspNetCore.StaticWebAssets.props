@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wnbskf2295</Fingerprint>
-      <Integrity>9AVkXXX9v/SNkJZgZSXvVoLP4zZYI0Ir9Ywnh7SXloY=</Integrity>
+      <Fingerprint>90gnt7jlsw</Fingerprint>
+      <Integrity>Nya4WgjFUMSzq4YS0IbeqhL0+p00b05aHVtfns/Xm6o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\taskApi.js'))</OriginalItemSpec>
