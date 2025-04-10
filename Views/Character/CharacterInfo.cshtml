@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Character List";
+}
+@model List<Character>
+
+<h2>Character List</h2>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Job</th>
+        <th>Level</th>
+        <th>Details</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Name</td>
+            <td>@p.Job</td>
+            <td>@p.Level</td>
+            <td><a href="/Character/Details/@p.Id">View</a></td>
+        </tr>
+    }
+</table>
