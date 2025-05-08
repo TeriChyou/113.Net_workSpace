@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mvcPlayground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46ed1f9cd674b15b48e2257ed87addadea285cc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+630a384fcc897004ae804c851a0cb23ebe831f39")]
 [assembly: System.Reflection.AssemblyProductAttribute("mvcPlayground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mvcPlayground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

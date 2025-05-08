@@ -1,0 +1,45 @@
+@model mvcPlayground.Models.Character
+
+@{
+    ViewData["Title"] = "Create Character";
+}
+
+<h2>Create New Character</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div> @* 顯示模型級別的驗證錯誤 *@
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label> @* 為 Name 屬性生成標籤 *@
+                <input asp-for="Name" class="form-control" /> @* 為 Name 屬性生成輸入框 *@
+                <span asp-validation-for="Name" class="text-danger"></span> @* 顯示 Name 屬性的驗證錯誤 *@
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Job" class="control-label"></label>
+                <input asp-for="Job" class="form-control" />
+                <span asp-validation-for="Job" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Level" class="control-label"></label>
+                <input asp-for="Level" class="form-control" />
+                <span asp-validation-for="Level" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" /> @* 提交按鈕 *@
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CharacterInfo">Back to List</a> @* 返回列表頁面的連結 *@
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");} @* 引入客戶端驗證所需的 JS 文件 *@
+}

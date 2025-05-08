@@ -1,23 +1,46 @@
-@{
-    ViewData["Title"] = "Character List";
-}
-@model List<Character>
+@model mvcPlayground.Models.CharacterListViewModel 
 
+@{
+    ViewData["Title"] = "Character List (Paginated)"; // 更新標題
+}
 <h2>Character List</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
 <table>
     <tr>
         <th>Name</th>
         <th>Job</th>
         <th>Level</th>
         <th>Details</th>
+        <th>Actions</th>
     </tr>
-    @foreach (var p in Model)
+    @* 遍歷 ViewModel 中的角色列表 *@
+    @foreach (var p in Model.Characters!)
     {
         <tr>
             <td>@p.Name</td>
             <td>@p.Job</td>
             <td>@p.Level</td>
-            <td><a href="/Character/Details/@p.Id">View</a></td>
+            <td><a asp-action="Details" asp-route-id="@p.Id">View</a></td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@p.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@p.Id">Delete</a>
+            </td>
         </tr>
     }
 </table>
+
+@* 顯示分頁資訊 *@
+<div class="pagination-info"> @* 添加這個 class *@
+    共 @Model.TotalRecords 筆記錄，@Model.TotalPages 頁
+    目前在第 @Model.CurrentPage 頁，每頁顯示 @Model.PageSize 筆
+</div>
+
+@* 渲染分頁導航列 HTML *@
+<div class="pagination"> @* 添加這個 class *@
+    @Html.Raw(Model.PagingHtml) @* 使用 Html.Raw 渲染 HTML 字串 *@
+</div>
+

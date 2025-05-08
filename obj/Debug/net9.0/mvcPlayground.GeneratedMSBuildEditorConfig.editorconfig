@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mvcPlayground
 build_property.RootNamespace = mvcPlayground
@@ -24,8 +32,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyL0NoYXJhY3RlckluZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/Views/Character/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/Views/Character/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/Views/Character/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/Views/Character/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2hhcmFjdGVyL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/Views/Home/Index.cshtml]

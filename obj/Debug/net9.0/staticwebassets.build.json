@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XauYeuRkGTMFn6vcdtBNsVqBZv9jw4KDnfvsnqN0kwE=",
+  "Hash": "MktWiYXEetdwhi6xLma1InzDFGf9Mlh97ZMstCD2JbY=",
   "Source": "mvcPlayground",
   "BasePath": "_content/mvcPlayground",
   "Mode": "Default",
@@ -38,12 +38,12 @@
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-tqie981cjz.gz",
+      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-v6tayq6lfu.gz",
       "SourceId": "mvcPlayground",
       "SourceType": "Computed",
       "ContentRoot": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/mvcPlayground",
-      "RelativePath": "mvcPlayground#[.{fingerprint=tqie981cjz}]?.styles.css.gz",
+      "RelativePath": "mvcPlayground#[.{fingerprint=v6tayq6lfu}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -52,8 +52,8 @@
       "RelatedAsset": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/bundle/mvcPlayground.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "m4h3u3fby4",
-      "Integrity": "dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=",
+      "Fingerprint": "hgmnzjsdyv",
+      "Integrity": "cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/bundle/mvcPlayground.styles.css"
@@ -836,12 +836,12 @@
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-b9sayid5wm.gz",
+      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-9tgezkz8wn.gz",
       "SourceId": "mvcPlayground",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/mvcPlayground",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=9tgezkz8wn}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -850,8 +850,8 @@
       "RelatedAsset": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pw5l7j5n1s",
-      "Integrity": "KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=",
+      "Fingerprint": "pfxf1n3qi6",
+      "Integrity": "BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/css/site.css"
@@ -1235,12 +1235,12 @@
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-tqie981cjz.gz",
+      "Identity": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-v6tayq6lfu.gz",
       "SourceId": "mvcPlayground",
       "SourceType": "Computed",
       "ContentRoot": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/mvcPlayground",
-      "RelativePath": "mvcPlayground#[.{fingerprint=tqie981cjz}]!.bundle.scp.css.gz",
+      "RelativePath": "mvcPlayground#[.{fingerprint=v6tayq6lfu}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/projectbundle/mvcPlayground.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "m4h3u3fby4",
-      "Integrity": "dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=",
+      "Fingerprint": "hgmnzjsdyv",
+      "Integrity": "cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/projectbundle/mvcPlayground.bundle.scp.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "tqie981cjz",
-      "Integrity": "ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=",
+      "Fingerprint": "v6tayq6lfu",
+      "Integrity": "R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/bundle/mvcPlayground.styles.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "tqie981cjz",
-      "Integrity": "ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=",
+      "Fingerprint": "v6tayq6lfu",
+      "Integrity": "R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/projectbundle/mvcPlayground.bundle.scp.css"
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "9tgezkz8wn",
+      "Integrity": "Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2770,13 +2770,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-b9sayid5wm.gz",
+      "Route": "css/site.9tgezkz8wn.css",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-9tgezkz8wn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.000539956803"
         }
       ],
       "ResponseHeaders": [
@@ -2786,15 +2786,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "1851"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:30:50 GMT"
+          "Value": "Thu, 08 May 2025 12:05:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2814,13 +2814,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9tgezkz8wn"
         },
         {
           "Name": "label",
@@ -2828,12 +2828,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.9tgezkz8wn.css",
       "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2843,7 +2843,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "5333"
         },
         {
           "Name": "Content-Type",
@@ -2851,11 +2851,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:30:50 GMT"
+          "Value": "Thu, 08 May 2025 12:05:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2865,7 +2865,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9tgezkz8wn"
         },
         {
           "Name": "label",
@@ -2873,13 +2873,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-b9sayid5wm.gz",
+      "Route": "css/site.9tgezkz8wn.css.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-9tgezkz8wn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2888,7 +2888,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "1851"
         },
         {
           "Name": "Content-Type",
@@ -2896,11 +2896,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:30:50 GMT"
+          "Value": "Thu, 08 May 2025 12:05:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2918,7 +2918,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9tgezkz8wn"
         },
         {
           "Name": "label",
@@ -2926,18 +2926,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-b9sayid5wm.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-9tgezkz8wn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.000539956803"
         }
       ],
       "ResponseHeaders": [
@@ -2947,15 +2947,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "1851"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:30:50 GMT"
+          "Value": "Thu, 08 May 2025 12:05:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2975,13 +2975,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I="
         }
       ]
     },
@@ -2996,7 +2996,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "5333"
         },
         {
           "Name": "Content-Type",
@@ -3004,11 +3004,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:30:50 GMT"
+          "Value": "Thu, 08 May 2025 12:05:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3018,13 +3018,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Y7DSrt5akt3lfsaMx9QDYloRLVT+5jxN+qvbH0Uh33I="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-b9sayid5wm.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/mlbtg92q5t-9tgezkz8wn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3033,7 +3033,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "1851"
         },
         {
           "Name": "Content-Type",
@@ -3041,11 +3041,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:30:50 GMT"
+          "Value": "Thu, 08 May 2025 12:05:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3063,7 +3063,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-BWRDlSQ/g8td9D1Djlb93q/EcMcZEk0Icvscmm1YMDE="
         }
       ]
     },
@@ -21627,12 +21627,12 @@
     },
     {
       "Route": "mvcPlayground.bundle.scp.css",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-tqie981cjz.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-v6tayq6lfu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001869158879"
+          "Quality": "0.000461680517"
         }
       ],
       "ResponseHeaders": [
@@ -21642,15 +21642,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21670,13 +21670,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "W/\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
@@ -21691,7 +21691,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1082"
+          "Value": "5362"
         },
         {
           "Name": "Content-Type",
@@ -21699,11 +21699,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21713,13 +21713,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
     {
       "Route": "mvcPlayground.bundle.scp.css.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-tqie981cjz.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-v6tayq6lfu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21728,7 +21728,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "Content-Type",
@@ -21736,11 +21736,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21758,18 +21758,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0="
+          "Value": "sha256-cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c="
         }
       ]
     },
     {
       "Route": "mvcPlayground.styles.css",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-tqie981cjz.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-v6tayq6lfu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001869158879"
+          "Quality": "0.000461680517"
         }
       ],
       "ResponseHeaders": [
@@ -21779,15 +21779,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21807,13 +21807,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "W/\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
@@ -21828,7 +21828,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1082"
+          "Value": "5362"
         },
         {
           "Name": "Content-Type",
@@ -21836,11 +21836,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21850,13 +21850,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
     {
       "Route": "mvcPlayground.styles.css.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-tqie981cjz.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-v6tayq6lfu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21865,7 +21865,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "Content-Type",
@@ -21873,11 +21873,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21895,18 +21895,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0="
+          "Value": "sha256-cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c="
         }
       ]
     },
     {
-      "Route": "mvcPlayground.tqie981cjz.bundle.scp.css",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-tqie981cjz.gz",
+      "Route": "mvcPlayground.v6tayq6lfu.bundle.scp.css",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-v6tayq6lfu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001869158879"
+          "Quality": "0.000461680517"
         }
       ],
       "ResponseHeaders": [
@@ -21916,15 +21916,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21944,13 +21944,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "W/\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqie981cjz"
+          "Value": "v6tayq6lfu"
         },
         {
           "Name": "label",
@@ -21958,12 +21958,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
     {
-      "Route": "mvcPlayground.tqie981cjz.bundle.scp.css",
+      "Route": "mvcPlayground.v6tayq6lfu.bundle.scp.css",
       "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/projectbundle/mvcPlayground.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21973,7 +21973,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1082"
+          "Value": "5362"
         },
         {
           "Name": "Content-Type",
@@ -21981,11 +21981,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21995,7 +21995,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqie981cjz"
+          "Value": "v6tayq6lfu"
         },
         {
           "Name": "label",
@@ -22003,13 +22003,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
     {
-      "Route": "mvcPlayground.tqie981cjz.bundle.scp.css.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-tqie981cjz.gz",
+      "Route": "mvcPlayground.v6tayq6lfu.bundle.scp.css.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/x1dwkd6khm-v6tayq6lfu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22018,7 +22018,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "Content-Type",
@@ -22026,11 +22026,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22048,7 +22048,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqie981cjz"
+          "Value": "v6tayq6lfu"
         },
         {
           "Name": "label",
@@ -22056,18 +22056,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0="
+          "Value": "sha256-cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c="
         }
       ]
     },
     {
-      "Route": "mvcPlayground.tqie981cjz.styles.css",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-tqie981cjz.gz",
+      "Route": "mvcPlayground.v6tayq6lfu.styles.css",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-v6tayq6lfu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001869158879"
+          "Quality": "0.000461680517"
         }
       ],
       "ResponseHeaders": [
@@ -22077,15 +22077,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22105,13 +22105,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "W/\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqie981cjz"
+          "Value": "v6tayq6lfu"
         },
         {
           "Name": "label",
@@ -22119,12 +22119,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
     {
-      "Route": "mvcPlayground.tqie981cjz.styles.css",
+      "Route": "mvcPlayground.v6tayq6lfu.styles.css",
       "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/scopedcss/bundle/mvcPlayground.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22134,7 +22134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1082"
+          "Value": "5362"
         },
         {
           "Name": "Content-Type",
@@ -22142,11 +22142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE=\""
+          "Value": "\"R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22156,7 +22156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqie981cjz"
+          "Value": "v6tayq6lfu"
         },
         {
           "Name": "label",
@@ -22164,13 +22164,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZS8P0DW00SADcqNUdPV3nctiXsnU9NRRL71S2IVdcWE="
+          "Value": "sha256-R1ygpniOGxt12LtpUSv4gCFicnwOfgMNuCs/gCdT5lc="
         }
       ]
     },
     {
-      "Route": "mvcPlayground.tqie981cjz.styles.css.gz",
-      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-tqie981cjz.gz",
+      "Route": "mvcPlayground.v6tayq6lfu.styles.css.gz",
+      "AssetFile": "/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/obj/Debug/net9.0/compressed/5nmcivltoo-v6tayq6lfu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22179,7 +22179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "534"
+          "Value": "2165"
         },
         {
           "Name": "Content-Type",
@@ -22187,11 +22187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0=\""
+          "Value": "\"cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 10:33:39 GMT"
+          "Value": "Thu, 08 May 2025 12:13:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22209,7 +22209,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tqie981cjz"
+          "Value": "v6tayq6lfu"
         },
         {
           "Name": "label",
@@ -22217,7 +22217,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dvOTpbz8Lf4RiKVwKJr8h+7RSatoLz5pU6FYk18l9v0="
+          "Value": "sha256-cQBJN/FKyT0D1XxWwvF+F3ng2nvIh9NNQo9LMg7PG8c="
         }
       ]
     }

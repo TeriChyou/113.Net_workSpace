@@ -1,48 +1,151 @@
 ﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+/* 調整通用字體大小 */
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* 調整焦點框顏色以符合調色板 */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  /* 使用調色板中的顏色作為焦點框顏色，例如使用 #c9a793 */
+  box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.5), 0 0 0 0.25rem #c9a793;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* 確保頁腳不會覆蓋內容 */
+body {
+  margin-bottom: 80px; /* 增加底部外邊距，為頁腳留出更多空間 */
+  background-color: #f8f9fa; /* 可以給一個淺色背景 */
+}
+
+/* 表單浮動標籤文字顏色和對齊 */
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: #b38574; /* 使用調色板中的顏色 */
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+
+/* ====================================================== */
+/* 佈局相關樣式 */
+/* ====================================================== */
+
+/* 導航列品牌 (網站標題/Logo) */
 a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  /* 使用調色板中的顏色作為品牌文字顏色 */
+  color: #dbc7a2 !important; /* 使用 !important 可能需要覆蓋 Bootstrap 預設樣式 */
+  /* 可以添加陰影或文字效果 */
+  /* text-shadow: 1px 1px 2px rgba(0,0,0,0.3); */
 }
 
+/* 通用連結顏色 (如果 site.css 沒有更具體的規則覆蓋的話) */
 a {
-  color: #0077cc;
+  color: #a76666; /* 使用調色板中的紅棕色作為連結顏色 */
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+/* Navbar 和 Footer 的通用背景色和文字顏色 */
+/* 假設您的 _Layout.cshtml 中有一個 nav 標籤用於導航列 */
+/* 並且頁腳使用了 footer 標籤或具有特定 class 的 div */
+
+.navbar {
+    background-color: #855858; /* 使用深棕色作為 Navbar 背景 */
+    /* 可以添加底部邊框或陰影 */
+    /* border-bottom: 3px solid #a76666; */
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
 }
 
+.navbar .nav-link {
+    color: #dbc7a2 !important; /* Navbar 連結文字顏色 - 淺黃棕色 */
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff !important; /* 鼠標懸停時變為白色 */
+    /* 可以添加下劃線或背景效果 */
+    /* text-decoration: underline; */
+}
+
+
+/* 針對 .nav-pills 中 active 狀態的連結樣式 */
+/* 通常用於導航列或其他導航組件 */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: white; /* Active 連結文字顏色 */
+  background-color: #b38574; /* 使用中黃棕色作為 Active 連結背景 */
+  border-color: #b38574; /* 邊框顏色與背景色一致 */
+  border-radius: 5px; /* 添加圓角 */
 }
 
+/* 頂部和底部邊框顏色 */
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #c9a793; /* 使用調色板中的顏色 */
 }
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #c9a793; /* 使用調色板中的顏色 */
 }
 
+/* 陰影效果 */
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1); /* 可以稍微調整陰影濃度 */
 }
 
+/* Cookie 同意按鈕樣式 */
 button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
+  /* 可以為這個按鈕應用調色板中的顏色，例如 btn-primary 的樣式已經在 site.css 中定義 */
 }
 
+/* 頁腳樣式 */
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  line-height: 60px;
+  line-height: 60px; /* 控制頁腳高度 */
+  background-color: #a76666; /* 使用紅棕色作為頁腳背景 */
+  color: #dbc7a2; /* 頁腳文字顏色 */
+  /* 可以添加頂部邊框或陰影 */
+  /* border-top: 1px solid #855858; */
+  /* box-shadow: 0 -2px 5px rgba(0,0,0,0.1); */
+  padding: 0 15px; /* 左右內邊距 */
 }
+
+/* 頁腳中的連結顏色 */
+.footer a {
+    color: #dbc7a2; /* 頁腳連結顏色與文字顏色一致 */
+    text-decoration: none; /* 移除下劃線 */
+}
+
+.footer a:hover {
+    color: white; /* 頁腳連結懸停時變為白色 */
+    text-decoration: underline; /* 添加下劃線 */
+}
+
+
+/* 添加一些通用的圓角類別，方便在 HTML 中使用 */
+.rounded-sm { border-radius: 0.2rem; }
+.rounded-md { border-radius: 0.5rem; }
+.rounded-lg { border-radius: 1rem; }
+.rounded-full { border-radius: 50%; } /* 用於圓形元素 */
+
+/* 添加一些間隔類別，用於控制元素之間的間距 */
+/* 這裡使用 margin 和 padding */
+.my-1 { margin-top: 0.25rem; margin-bottom: 0.25rem; }
+.my-2 { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+/* ... 更多間隔類別，可以參考 Bootstrap 的 spacing utilities */
