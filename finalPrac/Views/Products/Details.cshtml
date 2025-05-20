@@ -1,0 +1,42 @@
+@model finalPrac.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h2>Product Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductCategory)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductCategory)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductDate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductDate)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductPrice)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductPrice)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ProductID" class="btn btn-warning">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,47 @@
+@model finalPrac.Models.ProductListViewModel
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h2>Product List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+</p>
+
+<table class="table"> @* Use Bootstrap's table class for basic styling *@
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductName)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductCategory)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductPrice)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Products)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductCategory)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductPrice)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductID" class="btn btn-info btn-sm">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductID" class="btn btn-secondary btn-sm">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductID" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination-info">
+    Displaying @Model.Products.Count() of @Model.TotalRecords products. Page @Model.CurrentPage of @Model.TotalPages.
+</div>
+
+<div class="pagination">
+    @Html.Raw(Model.PagingHtml)
+</div>
