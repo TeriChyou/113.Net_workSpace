@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* 您可以考慮調整這個 box-shadow 顏色以符合調色板 */
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -22,151 +22,10 @@ body {
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color); /* 可以考慮替換為調色板中的顏色 */
+  color: var(--bs-secondary-color);
   text-align: end;
 }
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
-
-/* ====================================================== */
-/* 您之前添加的表格樣式 (已經使用了調色板顏色) */
-/* ====================================================== */
-table {
-  border-collapse: collapse; /* 合併邊框 */
-  width: 80%; /* 表格寬度 */
-  margin: 20px auto; /* 居中並添加外邊距 */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加陰影 */
-}
-
-th, td {
-  padding: 12px 15px; /* 單元格內邊距 */
-  text-align: left; /* 文字靠左對齊 */
-  border-bottom: 1px solid #ddd; /* 底部邊框，可以考慮替換為調色板中的淺色 */
-}
-
-th {
-  background-color: #855858; /* 表頭背景色 - 深棕色 */
-  color: white; /* 表頭文字顏色 */
-}
-
-tr:nth-child(even) {
-  background-color: #dbc7a2; /* 偶數行背景色 - 淺黃棕色 */
-}
-
-tr:hover {
-  background-color: #c9a793; /* 滑鼠懸停時的背景色 - 中黃棕色 */
-}
-
-td a {
-  color: #a76666; /* 連結顏色 - 紅棕色 */
-  text-decoration: none; /* 移除下劃線 */
-}
-
-td a:hover {
-  text-decoration: underline; /* 滑鼠懸停時添加下劃線 */
-}
-
-/* ====================================================== */
-/* 您之前添加的按鈕顏色 (已經使用了調色板顏色) */
-/* ====================================================== */
-.btn-primary {
-  background-color: #a76666; /* 紅棕色 */
-  border-color: #a76666;
-  color: white; /* 確保文字顏色清晰 */
-}
-
-.btn-primary:hover {
-   background-color: #b38574; /* 滑鼠懸停時使用另一個顏色 */
-   border-color: #b38574;
-}
-
-
-.btn-danger {
-  background-color: #855858; /* 深棕色 */
-  border-color: #855858;
-  color: white; /* 確保文字顏色清晰 */
-}
-
-.btn-danger:hover {
-   background-color: #a76666; /* 滑鼠懸停時使用另一個顏色 */
-   border-color: #a76666;
-}
-
-.btn-info { /* 為 View Details 按鈕添加樣式 */
-  background-color: #c9a793; /* 中黃棕色 */
-  border-color: #c9a793;
-  color: #855858; /* 使用深棕色文字 */
-}
-
-.btn-info:hover {
-  background-color: #b38574; /* 滑鼠懸停時使用另一個顏色 */
-  border-color: #b38574;
-   color: white;
-}
-
-
-/* ====================================================== */
-/* 新增的分頁樣式 */
-/* ====================================================== */
-
-/* 分頁資訊的容器 */
-.pagination-info {
-    text-align: center; /* 居中顯示 */
-    margin-top: 15px;
-    margin-bottom: 10px;
-    color: #855858; /* 使用調色板中的深色 */
-}
-
-
-/* 分頁導航列的容器 (您在 CharacterInfo.cshtml 中添加的 class="pagination" div) */
-.pagination {
-    text-align: center; /* 使分頁連結居中 */
-    margin-top: 10px;
-    margin-bottom: 20px;
-    /* 可以添加邊框或背景色 */
-    /* border-top: 1px solid #ddd; */
-    /* padding-top: 15px; */
-}
-
-/* 分頁連結樣式 */
-.pagination a {
-    display: inline-block; /* 使連結可以設置內邊距和外邊距 */
-    padding: 8px 16px; /* 內邊距 */
-    margin: 0 4px; /* 左右外邊距 */
-    text-decoration: none; /* 移除下劃線 */
-    color: #a76666; /* 連結文字顏色 - 紅棕色 */
-    border: 1px solid #a76666; /* 邊框顏色 */
-    border-radius: 4px; /* 圓角 */
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* 添加過渡效果 */
-}
-
-/* 分頁連結懸停時的樣式 */
-.pagination a:hover {
-    background-color: #a76666; /* 懸停時背景色 - 紅棕色 */
-    color: white; /* 懸停時文字顏色 */
-    border-color: #a76666;
-    text-decoration: none; /* 懸停時也移除下劃線 */
-}
-
-/* 當前頁碼的樣式 */
-/* 根據您 Controller 中生成的 HTML，當前頁碼是 [<b>頁碼</b>] 的形式 */
-.pagination b {
-    display: inline-block;
-    padding: 8px 16px;
-    margin: 0 4px;
-    font-weight: bold;
-    color: white; /* 文字顏色 */
-    background-color: #855858; /* 背景色 - 深棕色 */
-    border: 1px solid #855858; /* 邊框顏色 */
-    border-radius: 4px;
-}
-
-/* 移除分頁連結中非頁碼連結的特殊樣式 (例如 前十頁/後十頁，如果它們不是純數字) */
-/* 如果您希望「前十頁」和「後十頁」連結也有樣式，可能需要調整 Controller 中生成 HTML 的方式 */
-/* 這裡的樣式主要針對純數字頁碼 */
-
-
-/* 調整 Controller 中生成 HTML 的分頁連結之間的間距，可能需要移除 Controller 中的 &nbsp;&nbsp; */
-/* 並依賴這裡的 margin 來控制間距 */
