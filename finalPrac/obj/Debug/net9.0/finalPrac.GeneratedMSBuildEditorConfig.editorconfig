@@ -17,61 +17,61 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = finalPrac
 build_property.RootNamespace = finalPrac
-build_property.ProjectDir = C:\Users\terry\OneDrive\桌面\temp_programming\113.Net_workSpace\finalPrac\
+build_property.ProjectDir = /Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\terry\OneDrive\桌面\temp_programming\113.Net_workSpace\finalPrac
+build_property.MSBuildProjectDirectory = /Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Products/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Products/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Products/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Products/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Products/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/terry/OneDrive/桌面/temp_programming/113.Net_workSpace/finalPrac/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-v9e0qo0cpd
+[/Users/linlab2024/Desktop/temp_coding/backEndCSClass/mvcPlayground/finalPrac/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5wf10zq3ff
