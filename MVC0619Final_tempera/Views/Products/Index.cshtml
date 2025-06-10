@@ -1,0 +1,130 @@
+@model MVC0619Final_tempera.Models.ProductListViewModel
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h2>Product List</h2>
+
+@* Conditionally display "Create New Product" button based on user's role *@
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+    </p>
+}
+else if (User.Identity.IsAuthenticated) // 用戶已登入但不是 Admin (即 Guest)
+{
+    <p>
+        <button class="btn btn-primary" disabled data-toggle="tooltip" data-placement="top" title="您沒有權限執行此操作。">
+            Create New Product
+        </button>
+        <small class="text-danger ms-2"> (僅限管理員)</small>
+    </p>
+}
+else // 用戶未登入
+{
+    <p>
+        @* 未登入用戶不會看到創建按鈕，點擊修改/刪除時會自動跳轉登入頁面 *@
+        <a asp-action="Login" asp-controller="Account" class="btn btn-primary" title="請登入以創建產品">Create New Product</a>
+        <small class="text-secondary ms-2"> (請登入以創建產品)</small>
+    </p>
+}
+
+
+@* --- 搜尋和排序表單 (保持不變) --- *@
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="form-row align-items-center">
+        <div class="col-auto">
+            <label class="sr-only" for="searchTerm">Search Product Name</label>
+            <input type="text" class="form-control mb-2" id="searchTerm" name="searchTerm" value="@Model.SearchTerm" placeholder="Search by Name">
+        </div>
+        <div class="col-auto">
+            <label class="sr-only" for="sortBy">Sort By</label>
+            <select class="form-control mb-2" id="sortBy" name="sortBy">
+                <option value="">Sort By...</option>
+                <option value="nameAsc" selected="@(Model.SortBy == "nameAsc")">Product Name (Asc)</option>
+                <option value="nameDesc" selected="@(Model.SortBy == "nameDesc")">Product Name (Desc)</option>
+                <option value="priceAsc" selected="@(Model.SortBy == "priceAsc")">Price (Asc)</option>
+                <option value="priceDesc" selected="@(Model.SortBy == "priceDesc")">Price (Desc)</option>
+                <option value="companyAsc" selected="@(Model.SortBy == "companyAsc")">Company (Asc)</option>
+                <option value="companyDesc" selected="@(Model.SortBy == "companyDesc")">Company (Desc)</option>
+                <option value="categoryAsc" selected="@(Model.SortBy == "categoryAsc")">Category (Asc)</option>
+                <option value="categoryDesc" selected="@(Model.SortBy == "categoryDesc")">Category (Desc)</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-info mb-2">Search / Sort</button>
+            <a asp-action="Index" class="btn btn-secondary mb-2">Clear</a>
+        </div>
+    </div>
+</form>
+@* --- 搜尋和排序表單結束 --- *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductName)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductCategory)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductCompany)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Products.FirstOrDefault().ProductPrice)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Products)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductCategory)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductCompany)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductPrice)</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.ProductID" class="btn btn-secondary btn-sm">Details</a>
+                    @* Conditionally display Edit and Delete links for Admin, or disabled for Guest *@
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <span> | </span>
+                        <a asp-action="Edit" asp-route-id="@item.ProductID" class="btn btn-info btn-sm">Edit</a>
+                        <span> | </span>
+                        <a asp-action="Delete" asp-route-id="@item.ProductID" class="btn btn-danger btn-sm">Delete</a>
+                    }
+                    else if(User.Identity.IsAuthenticated)// 已登入但非管理員 (Guest)
+                    {
+                        <span> | </span>
+                        <button class="btn btn-info btn-sm" disabled data-toggle="tooltip" data-placement="top" title="您沒有權限編輯此項目。">Edit</button>
+                        <span> | </span>
+                        <button class="btn btn-danger btn-sm" disabled data-toggle="tooltip" data-placement="top" title="您沒有權限刪除此項目。">Delete</button>
+                    }
+                    else
+                    {
+                        <span> | </span>
+                        <a asp-action="Login" asp-controller="Account" class="btn btn-info btn-sm">Edit</a>
+                        <span> | </span>
+                        <a asp-action="Login" asp-controller="Account" class="btn btn-danger btn-sm">Delete</a>
+                    }
+                    @* 如果未登入，這些按鈕根本不會顯示，點擊時會由後端導向登入頁面 *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination-info">
+    Displaying @Model.Products.Count() of @Model.TotalRecords products. Page @Model.CurrentPage of @Model.TotalPages.
+</div>
+
+<div class="pagination">
+    @Html.Raw(Model.PagingHtml)
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip() // 啟用 Bootstrap Tooltip
+        })
+    </script>
+}

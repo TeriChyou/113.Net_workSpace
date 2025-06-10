@@ -1,0 +1,68 @@
+@model MVC0619Final_tempera.Models.Product
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h2>Product Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductCompany)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductCompany)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductCategory)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductCategory)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductDate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductDate)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ProductPrice)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ProductPrice)
+        </dd>
+    </dl>
+</div>
+<div>
+    @* --- 根據使用者角色動態顯示編輯按鈕 --- *@
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.ProductID" class="btn btn-warning">Edit</a>
+    }
+    else if (User.Identity.IsAuthenticated) // 已登入但非管理員 (Guest)
+    {
+        <button class="btn btn-warning" disabled data-toggle="tooltip" data-placement="top" title="您沒有權限編輯此項目。">Edit</button>
+    }
+    @* 如果未登入，這裡不會顯示編輯按鈕，點擊時會由後端導向登入頁面 *@
+    <span> | </span> @* 確保分隔符號始終顯示 *@
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip() // 啟用 Bootstrap Tooltip
+        })
+    </script>
+}
